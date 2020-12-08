@@ -1,0 +1,22 @@
+1.https://www.cnblogs.com/yongdaimi/p/11729942.html
+
+2.build setting
+  bitcode
+  header-path
+  library-path
+
+3.Library
+VideoToolbox, audioToolbox
+libz.tbd libbz2.tbd libiconv.tbd CoreMedia.framework
+
+4.Reference
+
+extern "C"
+{
+#import <libavformat/avformat.h>
+#import <libswscale/swscale.h>
+#import <libswresample/swresample.h>
+#import <libavutil/pixfmt.h>
+
+}
+
